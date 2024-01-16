@@ -1,0 +1,8 @@
+env: standard
+runtime: nodejs18
+service: demo
+
+handlers:
+  - url: /.*
+    secure: always
+    script: auto

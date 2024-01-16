@@ -1,0 +1,4 @@
+We need to change following code configuration keys in following files in order to run the project completely.
+
+Open _app.js file and add the hotjar and google tag manager id
+Open file Api/firebaseConfiguration.js and add your firebase configuration key values

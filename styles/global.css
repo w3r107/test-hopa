@@ -1,0 +1,162 @@
+.iphone-x {
+  position: relative;
+  margin: 5px auto;
+  width: 120px;
+  height: 260px;
+  background-color: #0000;
+  background-image: linear-gradient(60deg, #0000 1%, #1f1f1f 100%);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0px 0px 0px 4px #1f1f1f, 0px 0px 0px 4px #191919,
+    0px 0px 0px 8px #111;
+}
+
+.iphone-x img {
+  border-radius: 12px;
+}
+
+.iphone-x:before,
+.iphone-x:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.iphone-x:before {
+  top: 0px;
+  width: 50%;
+  height: 18px;
+  background-color: #1f1f1f;
+  border-radius: 0px 0px 12px 12px;
+}
+
+.iphone-x i,
+.iphone-x b,
+.iphone-x s,
+.iphone-x span {
+  position: absolute;
+  display: block;
+  color: transparent;
+  z-index: 2; 
+}
+
+.iphone-x i {
+  top: 0px;
+  left: 50%;
+  transform: translate(-50%, 6px);
+  height: 8px;
+  width: 15%;
+  background-color: #101010;
+  border-radius: 8px;
+  box-shadow: inset 0px -3px 3px 0px rgba(256, 256, 256, 0.2);
+}
+
+.iphone-x b {
+  left: 60%;
+  top: 1%;
+  /* transform: translate(180px, 4px); */
+  width: 12px;
+  height: 12px;
+  background-color: #101010;
+  border-radius: 12px;
+  box-shadow: inset 0px -3px 2px 0px rgba(256, 256, 256, 0.2);
+}
+
+.iphone-x b:after {
+  content: "";
+  position: absolute;
+  background-color: #2d4d76;
+  width: 6px;
+  height: 6px;
+  top: 2px;
+  left: 2px;
+  top: 3px;
+  left: 3px;
+  display: block;
+  border-radius: 4px;
+  box-shadow: inset 0px -2px 2px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.overlay-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* height: auto; */
+  display: block;
+  background: rgba(0, 0, 0, 0.3);
+  color: #fff;
+}
+
+.ql-editor {
+  text-align: unset !important;
+}
+
+.ql-snow .ql-picker:not(.ql-color-picker):not(.ql-icon-picker) svg {
+  position: unset !important;
+}
+
+.rounded-image {
+  border-radius: 10%;
+  overflow: hidden;
+}
+
+.arimo {
+  font-family: "Arimo", sans-serif;
+}
+
+.heebo {
+  font-family: "Heebo", sans-serif;
+}
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+}
+
+.rubik {
+  font-family: "Rubik", sans-serif;
+}
+
+.varela-round {
+  font-family: "Varela Round", sans-serif;
+}
+
+.tinos {
+  font-family: "Tinos", sans-serif;
+}
+
+.assistant {
+  font-family: "Assistant", sans-serif;
+}
+
+
+/* custom css  */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #aaa;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #474747;
+}
+
+
+
+.groupGrid1x3 {
+  display: grid;
+  grid-template-columns: 80px 1fr;
+}
+
+.orderDishFlexCol {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

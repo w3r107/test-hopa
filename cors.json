@@ -1,0 +1,8 @@
+
+[
+  {
+    "origin": ["https://admin.hopa.tech.com"],
+    "method": ["GET"],
+    "maxAgeSeconds": 3600
+  }
+]
