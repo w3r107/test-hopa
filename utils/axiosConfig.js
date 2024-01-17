@@ -4,12 +4,14 @@ import { getCookie } from "./cookies";
 // frontend url
 // https://hopa-menu-dev.loca.lt
 
-export const URL = "https://menuapi.hopa.tech/v1";
+// export const URL = "https://menuapi.hopa.tech/v1";
+export const URL = "https://hopadevapi.kdev.co.in/v1";
+export const WSURL = "wss://hopadevapi.kdev.co.in";
 // export const URL = "http://localhost:4001/v1";
 // export const URL = "http://172.16.0.74:4001/v1";
 
 // export const WSURL = "ws://localhost:4001"
-export const WSURL = "ws://menuapi.hopa.tech:4001"
+// export const WSURL = "ws://menuapi.hopa.tech:4001"
 
 export const axiosGet = async (params, query = {}) => {
   let axiosGetConfig = {
